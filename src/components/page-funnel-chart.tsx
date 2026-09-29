@@ -75,7 +75,7 @@ function useChartColors() {
     border: "#e5e5e5",
     grid: "#f0f0f0",
     axis: "#a3a3a3",
-    current: "#1a04ff",
+    current: "#6d28d9",
     prior: "#a3a3a3",
   });
 
@@ -90,7 +90,7 @@ function useChartColors() {
         border: styles.getPropertyValue("--border").trim() || "#e5e5e5",
         grid: styles.getPropertyValue("--chart-grid").trim() || "#f0f0f0",
         axis: styles.getPropertyValue("--chart-axis").trim() || "#a3a3a3",
-        current: styles.getPropertyValue("--chart-current").trim() || "#1a04ff",
+        current: styles.getPropertyValue("--chart-current").trim() || "#6d28d9",
         prior: styles.getPropertyValue("--chart-prior").trim() || "#a3a3a3",
       });
     }

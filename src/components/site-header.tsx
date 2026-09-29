@@ -48,8 +48,8 @@ export function SiteHeader({ entryLookup, themeToggle }: SiteHeaderProps) {
               <svg viewBox="0 0 32 32" className="h-8 w-8" role="img">
                 <defs>
                   <linearGradient id="funnel-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#1a04ff" />
-                    <stop offset="100%" stopColor="#6366f1" />
+                    <stop offset="0%" stopColor="#6d28d9" />
+                    <stop offset="100%" stopColor="#8b5cf6" />
                   </linearGradient>
                 </defs>
                 <path
